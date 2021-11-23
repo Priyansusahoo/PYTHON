@@ -9,7 +9,7 @@ name2 = input("What is their name? \n")
 lower_case_n1 = name1.lower()
 lower_case_n2 = name2.lower()
 
-# TRUE for name1
+# TRUE for lower_case_n1 & lower_case_n2
 T1 = lower_case_n1.count("t")
 T2 = lower_case_n2.count("t")
 
@@ -24,7 +24,7 @@ E2 = lower_case_n2.count("e")
 
 S1 = (T1+T2) + (R1+R2) + (U1+U2) + (E1+E2)
 
-# LOVE
+# LOVE for lower_case_n1 & lower_case_n2
 L1 = lower_case_n1.count("l")
 L2 = lower_case_n2.count("l")
 
